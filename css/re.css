@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#5353d334 ;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top bar styling */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071739; /* Dark teal background */
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo-container img {
+    height: 60px; /* Increased logo size */
+    width: 60px;
+}
+
+.navigation-logout-container {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.sidebar ul {
+    display: flex;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-left: 20px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ff8c00; /* Teal */
+}
+
+.logout-container {
+    margin-left: 20px;
+}
+
+.logout-container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #ff8c00; /* Teal */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-container a:hover {
+    background-color: #071739; /* Dark teal */
+}
+
+.container {
+    flex: 1; /* To ensure the container takes up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjusted to space-between */
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container,
+.resources-container {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #071739; /* Dark teal */
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #071739; /* Dark teal */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff8c00; /* Teal */
+}
+
+.table-wrapper {
+    max-height: 400px; /* Set max height for table container */
+    overflow-y: auto; /* Add vertical scroll */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #f5f5f5;
+}
+
+table td img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #071739; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px 0; /* Reduced padding */
+    text-align: left;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+  
+.footer-content .footer-section {
+    flex: 1;
+    margin: 10px; /* Reduced margin */
+}
+  
+.footer-section h3, .footer-section h4 {
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 18px;
+    color: #ff8c00; /* Orange color for headings */
+}
+  
+.footer-section p, .footer-section a {
+    margin-bottom: 5px; /* Reduced margin */
+    color: #fff; /* White text */
+}
+  
+.footer-section a {
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+  
+.footer-section a:hover {
+    color: #ffa500; /* Lighter orange on hover */
+}
+  
+.footer-section .subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer-section .subscribe input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px); /* Full width minus padding */
+}
+  
+.footer-section .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00; /* Orange button */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.footer-section .subscribe button:hover {
+    background-color: #ffa500; /* Lighter orange on hover */
+}
+  
+.footer-bottom {
+    margin-top: 10px; /* Reduced margin */
+    border-top: 1px solid #333; /* Dark grey border */
+    padding-top: 10px; /* Reduced padding */
+    text-align: center;
+}
+  
+.footer-bottom .social-media {
+    margin-bottom: 10px;
+}
+  
+.footer-bottom .social-media a {
+    margin: 0 10px;
+    color: #ff8c00; /* Orange icons */
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+  
+.footer-bottom .social-media a:hover {
+    color: #ffa500; /* Lighter orange on hover */
+}
+  
+.footer-bottom p {
+    margin-top: 10px;
+    color: #fff; /* White text */
+}
+

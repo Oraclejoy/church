@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    padding: 10px;
+    color: #ccc;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.nav-links li {
+    padding: 0 10px;
+}
+
+.nav-links a {
+    color: #ffd700; /* gold */
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.vision-mission-goals,
+.who-we-are {
+    margin-bottom: 20px;
+}
+
+.team {
+    background-image: url('building.jpeg');
+    padding: 1rem 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile {
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 1rem;
+    flex: 0 1 20%; /* Adjust the width as needed */
+    padding-bottom: 50px;
+}
+
+.profile figure {
+    position: relative;
+    overflow: hidden;
+}
+
+.profile img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.profile_name {
+    text-transform: uppercase;
+    font-family: font-header;
+    position: relative;
+    padding-bottom: 0.2em;
+    margin: 1em 0 0.5em;
+    @include special_underline($grad_secondary, 5em, 0);
+}
+
+.profile_position {
+    font-weight: 400;
+    font-style: italic;
+    margin: 1rem 0 0 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #ffd700; /* gold */
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    margin-top: 20px; /* Add some space at the top */
+}
+
+.social-media a {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between icons */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-media a.twitter {
+    background-image: url('twitter.jpg'); /* Replace with path to Twitter logo image */
+}
+
+.social-media a.facebook {
+    background-image: url('facebook.jpg'); /* Replace with path to Facebook logo image */
+}
+
+.social-media a.instagram {
+    background-image: url('instagram.jpg'); /* Replace with path to Instagram logo image */
+}
+
+.social-media a.tiktok {
+    background-image: url('tiktok.jpg'); /* Replace with path to TikTok logo image */
+}

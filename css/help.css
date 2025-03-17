@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#5353d334 ;
+}
+
+/* Top bar styling */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071739; /* Dark teal background */
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo-container img {
+    height: 60px; /* Increased logo size */
+    width: 60px;
+}
+
+.navigation-logout-container {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.sidebar ul {
+    display: flex;
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-left: 20px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ff8c00; /* Teal */
+}
+
+.logout-container {
+    margin-left: 20px;
+}
+
+.logout-container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #ff8c00; /* Teal */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-container a:hover {
+    background-color: #071739; /* Dark teal */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.faq-answer {
+    padding: 10px;
+    background-color: #f5f0f0;
+    
+}
+
+.footer {
+    background-color: #071739; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px 0; /* Reduced padding */
+    text-align: left;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+  
+.footer-content .footer-section {
+    flex: 1;
+    margin: 10px; /* Reduced margin */
+}
+  
+.footer-section h3, .footer-section h4 {
+    margin-bottom: 10px; /* Reduced margin */
+    font-size: 18px;
+    color: #ff8c00; /* Orange color for headings */
+}
+  
+.footer-section p, .footer-section a {
+    margin-bottom: 5px; /* Reduced margin */
+    color: #fff; /* White text */
+}
+  
+.footer-section a {
+    text-decoration: none;
+    display: block;
+    transition: color 0.3s;
+}
+  
+.footer-section a:hover {
+    color: #ffa500; /* Lighter orange on hover */
+}
+  
+.footer-section .subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.footer-section .subscribe input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: calc(100% - 20px); /* Full width minus padding */
+}
+  
+.footer-section .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00; /* Orange button */
+    color: #fff; /* White text */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.footer-section .subscribe button:hover {
+    background-color: #ffa500; /* Lighter orange on hover */
+}
+  
+.footer-bottom {
+    margin-top: 10px; /* Reduced margin */
+    border-top: 1px solid #333; /* Dark grey border */
+    padding-top: 10px; /* Reduced padding */
+    text-align: center;
+}
+  
+.footer-bottom .social-media {
+    margin-bottom: 10px;
+}
+  
+.footer-bottom .social-media a {
+    margin: 0 10px;
+    color: #ff8c00; /* Orange icons */
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+  
+.footer-bottom .social-media a:hover {
+    color: #ffa500; /* Lighter orange on hover */
+}
+  
+.footer-bottom p {
+    margin-top: 10px;
+    color: #fff; /* White text */
+}
+
+
